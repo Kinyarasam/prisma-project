@@ -6,6 +6,6 @@ import AppController from '../controller/appController';
 const router = express.Router();
 
 router
-  .get('/', AppController.getStats)
+  .get('/stats', AppController.getStats)
 
 export default router;
